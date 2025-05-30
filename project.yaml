@@ -1,8 +1,8 @@
 basic:
     name: 'https://www.mathnarrative.org/'
     environments:
-        production: 'https://www.mathnarrative.org'
-        staging: 'https://stage.mathnarrative.org'
+        production: 'https://www.mathnarrative.org/'
+        staging: 'https://stage.mathnarrative.org/'
         development: ''
     breakpoints:
         - 425
@@ -35,7 +35,7 @@ advanced:
     custom_js: ''
     custom_css: ''
     mock_content:
-        - { selector: '', type: title }
+        - { type: title, selector: '' }
     sensitivity: 15
     night_mode: false
     retina_images: false
