@@ -1,8 +1,8 @@
 basic:
-    name: 'https://www.mathnarrative.org/'
+    name: 'https://www.mathnarrative.org'
     environments:
-        production: 'https://www.mathnarrative.org/'
-        staging: 'https://stage.mathnarrative.org/'
+        production: 'https://www.mathnarrative.org'
+        staging: 'https://stage.mathnarrative.org'
         development: ''
     breakpoints:
         - 425
