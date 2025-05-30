@@ -1,0 +1,52 @@
+basic:
+    name: 'https://www.mathnarrative.org/'
+    environments:
+        production: 'https://www.mathnarrative.org'
+        staging: 'https://stage.mathnarrative.org'
+        development: ''
+    breakpoints:
+        - 640
+        - 768
+        - 960
+        - 1024
+        - 1080
+        - 1200
+    pages:
+        - /webinars
+        - /narrative-change
+        - /research-team
+        - /methodology
+        - /insights
+        - /recommendations-overview
+        - /students
+        - /
+    monitoring:
+        days: {  }
+        type: ''
+        schedule_time: '12:30 AM'
+        schedule_time_zone: Europe/London
+        compare_with: last-production
+        compare_with_fresh: production
+advanced:
+    mask: ''
+    remove: ''
+    isolate: ''
+    delay: 15
+    scroll: true
+    headers:
+        - { header: '', value: '' }
+    cookies: ''
+    custom_js: ''
+    custom_css: ''
+    mock_content: ''
+    sensitivity: 15
+    night_mode: ''
+    retina_images: ''
+    performance:
+        workers_production: 30
+        workers_nonproduction: 10
+        workers_production_delay: 0
+        workers_nonproduction_delay: 0
+    stabilize: true
+proxy: false
+type: single-site
